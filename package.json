@@ -1,0 +1,49 @@
+{
+  "name": "tokenlists",
+  "version": "1.0.0",
+  "description": "A collection of wrapper classes that functionally extend classList and relList in a DOM Element.",
+  "keywords": [
+    "facade",
+    "wrapper",
+    "interface",
+    "token",
+    "tokenlist",
+    "domtokenlist",
+    "class",
+    "rel"
+  ],
+  "author": {
+    "name": "Fr. John Lamansky",
+    "url": "lamansky.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/tokenlists",
+  "repository": "lamansky/tokenlists",
+  "main": "index.js",
+  "files": [
+    "class.js",
+    "rel.js",
+    "token.js"
+  ],
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "dependencies": {
+    "listwrap": "^1.0.0",
+    "sanitize-tokens": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.2.0",
+    "tokenlist": "^0.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
